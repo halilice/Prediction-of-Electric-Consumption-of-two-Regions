@@ -21,7 +21,7 @@ def prediction_energy():
             nécessaires concernant la météo sur le site << https://www.yr.no/en >>. 
             """)
 
-        df = pd.read_csv('matrice_ml_enedis.csv')
+        df = pd.read_csv('csv_files/matrice_ml_enedis.csv')
         df['Energy_Cons_KWh'] = df['Energy_Cons_KWh'].apply(lambda x: x / 1000)
         df.rename({'Energy_Cons_KWh': 'Energy_Cons_mWh'}, axis=1, inplace=True)
 
