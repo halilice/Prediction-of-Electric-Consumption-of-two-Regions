@@ -275,7 +275,7 @@ def indicators_matrix():
         )
 
         fig.update_layout(
-                    barcornerradius=15,
+                    #barcornerradius=15,
                     yaxis_title="Consommation électrique totale (mWh)",
                     xaxis_title="Heure de Soleil",
                     margin=dict(l=20, r=20, t=20, b=20)
@@ -305,7 +305,7 @@ def indicators_matrix():
         )
 
         fig.update_layout(
-                    barcornerradius=15,
+                    #barcornerradius=15,
                     yaxis_title="Consommation électrique totale (mWh)",
                     xaxis_title="Humidité (Pourcentage)",
                     margin=dict(l=20, r=20, t=20, b=20)
@@ -328,7 +328,7 @@ def indicators_matrix():
         )
 
         fig.update_layout(
-                barcornerradius=15,
+                #barcornerradius=15,
                 yaxis_title="Consommation électrique totale (mWh)",
                 xaxis_title="Neige",
                 margin=dict(l=20, r=20, t=20, b=20)
@@ -363,7 +363,7 @@ def indicators_matrix():
             )
 
             fig.update_layout(
-                    barcornerradius=15,
+                    #barcornerradius=15,
                     yaxis_title="Consommation électrique totale (mWh)",
                     xaxis_title="Jour férié",
                     margin=dict(l=20, r=20, t=20, b=20)
@@ -389,7 +389,7 @@ def indicators_matrix():
             )
 
             fig.update_layout(
-                    barcornerradius=15,
+                    #barcornerradius=15,
                     yaxis_title="Consommation électrique totale (mWh)",
                     xaxis_title="Week-end",
                     margin=dict(l=20, r=20, t=20, b=20)
@@ -416,7 +416,7 @@ def indicators_matrix():
             )
 
             fig.update_layout(
-                    barcornerradius=15,
+                    #barcornerradius=15,
                     yaxis_title="Consommation électrique totale (mWh)",
                     xaxis_title="Vacances scolaires",
                     margin=dict(l=20, r=20, t=20, b=20)
