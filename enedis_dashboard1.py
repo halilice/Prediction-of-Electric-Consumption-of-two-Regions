@@ -1,14 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
-from matplotlib.ticker import FuncFormatter
-import matplotlib.dates as mdates
-from prediction_energy import prediction_energy
 
-#sns.set_style("whitegrid")
 # Execute the following code to avoid displaying the numbers in scientific notation
 pd.options.display.float_format = '{:.2f}'.format
 
@@ -28,13 +22,13 @@ def basic_indicators():
     st.markdown('#')
 
 
-    df_new = pd.read_csv('df_new.csv')
+    df_new = pd.read_csv('csv_files/df_new.csv')
 
-    df_cons_hour = pd.read_csv('df_cons_hour.csv')
+    df_cons_hour = pd.read_csv('csv_files/df_cons_hour.csv')
 
-    df_cons_prof = pd.read_csv('df_cons_prof.csv')
+    df_cons_prof = pd.read_csv('csv_files/df_cons_prof.csv')
 
-    enr_sub_pow_range = pd.read_csv('enr_sub_pow_range.csv')
+    enr_sub_pow_range = pd.read_csv('csv_files/enr_sub_pow_range.csv')
 
 
     col1, col2 = st.columns(2, gap="small")
@@ -115,7 +109,7 @@ def basic_indicators():
 
     with col4:
         st.subheader('Consommation Electrique Moyenne par Plage de Puissance Souscrite et par Région en Pourcentage')
-        tot_energy_cons=pd.read_csv('tot_energy_cons.csv')
+        tot_energy_cons=pd.read_csv('csv_files/tot_energy_cons.csv')
         tot_energy_cons = tot_energy_cons[tot_energy_cons['Plage de puissance souscrite'] != 'P0: Total <= 36 kVA']
 
         list_profiles = tot_energy_cons['Profil'].unique().tolist()
@@ -157,7 +151,7 @@ def indicators_matrix():
     
     st.markdown("<h1 style='text-align: center;'>INDICATEURS DE LA MATRICE DU MODÈLE ML</h1>", unsafe_allow_html=True)
     
-    df_matrix = pd.read_csv('matrice_ml_enedis.csv')
+    df_matrix = pd.read_csv('csv_files/matrice_ml_enedis.csv')
     
     df_matrix['Energy_Cons_KWh'] = df_matrix['Energy_Cons_KWh'].apply(lambda x: x / 1000)
     
