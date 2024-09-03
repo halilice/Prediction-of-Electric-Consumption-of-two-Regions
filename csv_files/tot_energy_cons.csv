@@ -1,0 +1,165 @@
+,Profil,Plage de puissance souscrite,Région,total_enr_cons
+0,ENT1 (+ ENT2),P0: Total <= 36 kVA,Centre-Val de Loire,0.0
+1,ENT1 (+ ENT2),P0: Total <= 36 kVA,Hauts-de-France,0.0
+2,ENT3 (+ ENT4 + ENT5),P0: Total <= 36 kVA,Centre-Val de Loire,55525154070.0
+3,ENT3 (+ ENT4 + ENT5),P0: Total <= 36 kVA,Hauts-de-France,61909023266.0
+4,PRO1 (+ PRO1WE),P0: Total <= 36 kVA,Centre-Val de Loire,1265669561180.0
+5,PRO1 (+ PRO1WE),P0: Total <= 36 kVA,Hauts-de-France,2705751217898.0
+6,PRO1 (+ PRO1WE),P1: ]0-3] kVA,Centre-Val de Loire,35970708536.0
+7,PRO1 (+ PRO1WE),P1: ]0-3] kVA,Hauts-de-France,73164078667.0
+8,PRO1 (+ PRO1WE),P2: ]3-6] kVA,Centre-Val de Loire,119951341667.0
+9,PRO1 (+ PRO1WE),P2: ]3-6] kVA,Hauts-de-France,277701755469.0
+10,PRO1 (+ PRO1WE),P3: ]6-9] kVA,Centre-Val de Loire,127052638349.0
+11,PRO1 (+ PRO1WE),P3: ]6-9] kVA,Hauts-de-France,267283072212.0
+12,PRO1 (+ PRO1WE),P4: ]9-12] kVA,Centre-Val de Loire,153202828784.0
+13,PRO1 (+ PRO1WE),P4: ]9-12] kVA,Hauts-de-France,330530696419.0
+14,PRO1 (+ PRO1WE),P5: ]12-15] kVA,Centre-Val de Loire,41801086057.0
+15,PRO1 (+ PRO1WE),P5: ]12-15] kVA,Hauts-de-France,68998934668.0
+16,PRO1 (+ PRO1WE),P6: ]15-18] kVA,Centre-Val de Loire,215009775258.0
+17,PRO1 (+ PRO1WE),P6: ]15-18] kVA,Hauts-de-France,440440469827.0
+18,PRO1 (+ PRO1WE),P7: ]18-24] kVA,Centre-Val de Loire,120750730179.0
+19,PRO1 (+ PRO1WE),P7: ]18-24] kVA,Hauts-de-France,245305013380.0
+20,PRO1 (+ PRO1WE),P8: ]24-30] kVA,Centre-Val de Loire,83342213217.0
+21,PRO1 (+ PRO1WE),P8: ]24-30] kVA,Hauts-de-France,160847125081.0
+22,PRO1 (+ PRO1WE),P9: ]30-36] kVA,Centre-Val de Loire,368637698128.0
+23,PRO1 (+ PRO1WE),P9: ]30-36] kVA,Hauts-de-France,841593041120.0
+24,PRO2 (+ PRO2WE + PRO6),P0: Total <= 36 kVA,Centre-Val de Loire,1096724977532.0
+25,PRO2 (+ PRO2WE + PRO6),P0: Total <= 36 kVA,Hauts-de-France,2097163841949.0
+26,PRO2 (+ PRO2WE + PRO6),P1: ]0-6] kVA,Centre-Val de Loire,60423502198.0
+27,PRO2 (+ PRO2WE + PRO6),P1: ]0-6] kVA,Hauts-de-France,131612064516.0
+28,PRO2 (+ PRO2WE + PRO6),P3: ]6-9] kVA,Centre-Val de Loire,99253488518.0
+29,PRO2 (+ PRO2WE + PRO6),P3: ]6-9] kVA,Hauts-de-France,177155055734.0
+30,PRO2 (+ PRO2WE + PRO6),P4: ]9-12] kVA,Centre-Val de Loire,172965117047.0
+31,PRO2 (+ PRO2WE + PRO6),P4: ]9-12] kVA,Hauts-de-France,322652846665.0
+32,PRO2 (+ PRO2WE + PRO6),P5: ]12-15] kVA,Centre-Val de Loire,44605212389.0
+33,PRO2 (+ PRO2WE + PRO6),P5: ]12-15] kVA,Hauts-de-France,64187081656.0
+34,PRO2 (+ PRO2WE + PRO6),P6: ]15-18] kVA,Centre-Val de Loire,187397213558.0
+35,PRO2 (+ PRO2WE + PRO6),P6: ]15-18] kVA,Hauts-de-France,350295989740.0
+36,PRO2 (+ PRO2WE + PRO6),P7: ]18-24] kVA,Centre-Val de Loire,122616407117.0
+37,PRO2 (+ PRO2WE + PRO6),P7: ]18-24] kVA,Hauts-de-France,221675783101.0
+38,PRO2 (+ PRO2WE + PRO6),P8: ]24-30] kVA,Centre-Val de Loire,112107625412.0
+39,PRO2 (+ PRO2WE + PRO6),P8: ]24-30] kVA,Hauts-de-France,190831577082.0
+40,PRO2 (+ PRO2WE + PRO6),P9: ]30-36] kVA,Centre-Val de Loire,297362992826.0
+41,PRO2 (+ PRO2WE + PRO6),P9: ]30-36] kVA,Hauts-de-France,640017578863.0
+42,PRO3,P0: Total <= 36 kVA,Centre-Val de Loire,45081554253.0
+43,PRO3,P0: Total <= 36 kVA,Hauts-de-France,63928888612.0
+44,PRO3,P1: ]0-9] kVA,Centre-Val de Loire,0.0
+45,PRO3,P1: ]0-9] kVA,Hauts-de-France,914715029.0
+46,PRO3,P4: ]9-12] kVA,Centre-Val de Loire,0.0
+47,PRO3,P4: ]9-12] kVA,Hauts-de-France,0.0
+48,PRO3,P5: ]12-15] kVA,Centre-Val de Loire,0.0
+49,PRO3,P5: ]12-15] kVA,Hauts-de-France,0.0
+50,PRO3,P6: ]15-18] kVA,Centre-Val de Loire,12101919621.0
+51,PRO3,P6: ]15-18] kVA,Hauts-de-France,17056696992.0
+52,PRO3,P7: ]18-30] kVA,Centre-Val de Loire,16845356630.0
+53,PRO3,P7: ]18-30] kVA,Hauts-de-France,24540141327.0
+54,PRO3,P9: ]30-36] kVA,Centre-Val de Loire,14280890627.0
+55,PRO3,P9: ]30-36] kVA,Hauts-de-France,18544888839.0
+56,PRO4,P0: Total <= 36 kVA,Centre-Val de Loire,48490621418.0
+57,PRO4,P0: Total <= 36 kVA,Hauts-de-France,65986583561.0
+58,PRO4,P1 : ]0-12] kVA,Centre-Val de Loire,387349.0
+59,PRO4,P1 : ]0-12] kVA,Hauts-de-France,378259.0
+60,PRO4,P5: ]12-15] kVA,Centre-Val de Loire,0.0
+61,PRO4,P5: ]12-15] kVA,Hauts-de-France,0.0
+62,PRO4,P6: ]15-18] kVA,Centre-Val de Loire,18884428577.0
+63,PRO4,P6: ]15-18] kVA,Hauts-de-France,24159633501.0
+64,PRO4,P7: ]18-36] kVA,Centre-Val de Loire,26033590350.0
+65,PRO4,P7: ]18-36] kVA,Hauts-de-France,39244981488.0
+66,PRO5,P0: Total <= 36 kVA,Centre-Val de Loire,278060068709.0
+67,PRO5,P0: Total <= 36 kVA,Hauts-de-France,744481926459.0
+68,PRO5,P1: ]0-3] kVA,Centre-Val de Loire,77676801321.0
+69,PRO5,P1: ]0-3] kVA,Hauts-de-France,141989332214.0
+70,PRO5,P2: ]3-6] kVA,Centre-Val de Loire,74052452515.0
+71,PRO5,P2: ]3-6] kVA,Hauts-de-France,158497354591.0
+72,PRO5,P3: ]6-9] kVA,Centre-Val de Loire,49854148502.0
+73,PRO5,P3: ]6-9] kVA,Hauts-de-France,126179274712.0
+74,PRO5,P4: ]9-12] kVA,Centre-Val de Loire,36440626389.0
+75,PRO5,P4: ]9-12] kVA,Hauts-de-France,117092627294.0
+76,PRO5,P5: ]12-15] kVA,Centre-Val de Loire,12832277757.0
+77,PRO5,P5: ]12-15] kVA,Hauts-de-France,47831880793.0
+78,PRO5,P6: ]15-18] kVA,Centre-Val de Loire,11708687760.0
+79,PRO5,P6: ]15-18] kVA,Hauts-de-France,62553302326.0
+80,PRO5,P7: ]18-24] kVA,Centre-Val de Loire,2110471946.0
+81,PRO5,P7: ]18-24] kVA,Hauts-de-France,37128848386.0
+82,PRO5,P8: ]24-30] kVA,Centre-Val de Loire,0.0
+83,PRO5,P8: ]24-30] kVA,Hauts-de-France,19343141420.0
+84,PRO5,P9: ]30-36] kVA,Centre-Val de Loire,2750272399.0
+85,PRO5,P9: ]30-36] kVA,Hauts-de-France,33934127567.0
+86,RES1 (+ RES1WE),P0: Total <= 36 kVA,Centre-Val de Loire,2054416661260.0
+87,RES1 (+ RES1WE),P0: Total <= 36 kVA,Hauts-de-France,5757155077680.0
+88,RES1 (+ RES1WE),P1: ]0-3] kVA,Centre-Val de Loire,99355495854.0
+89,RES1 (+ RES1WE),P1: ]0-3] kVA,Hauts-de-France,209430075790.0
+90,RES1 (+ RES1WE),P2: ]3-6] kVA,Centre-Val de Loire,1955056588263.0
+91,RES1 (+ RES1WE),P2: ]3-6] kVA,Hauts-de-France,5547724289275.0
+92,RES11 (+ RES11WE),P0: Total <= 36 kVA,Centre-Val de Loire,1673333646550.0
+93,RES11 (+ RES11WE),P0: Total <= 36 kVA,Hauts-de-France,2199769013914.0
+94,RES11 (+ RES11WE),P3: ]6-9] kVA,Centre-Val de Loire,840237982524.0
+95,RES11 (+ RES11WE),P3: ]6-9] kVA,Hauts-de-France,1285464180517.0
+96,RES11 (+ RES11WE),P4: ]9-12] kVA,Centre-Val de Loire,455737882425.0
+97,RES11 (+ RES11WE),P4: ]9-12] kVA,Hauts-de-France,544993919089.0
+98,RES11 (+ RES11WE),P5: ]12-15] kVA,Centre-Val de Loire,100305985411.0
+99,RES11 (+ RES11WE),P5: ]12-15] kVA,Hauts-de-France,89186304201.0
+100,RES11 (+ RES11WE),P6: ]15-18] kVA,Centre-Val de Loire,156576152735.0
+101,RES11 (+ RES11WE),P6: ]15-18] kVA,Hauts-de-France,171940479591.0
+102,RES11 (+ RES11WE),P7: ]18-24] kVA,Centre-Val de Loire,38119653931.0
+103,RES11 (+ RES11WE),P7: ]18-24] kVA,Hauts-de-France,36118907413.0
+104,RES11 (+ RES11WE),P8: ]24-30] kVA,Centre-Val de Loire,20407516947.0
+105,RES11 (+ RES11WE),P8: ]24-30] kVA,Hauts-de-France,13500306952.0
+106,RES11 (+ RES11WE),P9: ]30-36] kVA,Centre-Val de Loire,62151778529.0
+107,RES11 (+ RES11WE),P9: ]30-36] kVA,Hauts-de-France,58371776792.0
+108,RES2 (+ RES5),P0: Total <= 36 kVA,Centre-Val de Loire,7762310133783.0
+109,RES2 (+ RES5),P0: Total <= 36 kVA,Hauts-de-France,13516728137925.0
+110,RES2 (+ RES5),P1: ]0-6] kVA,Centre-Val de Loire,1600089691747.0
+111,RES2 (+ RES5),P1: ]0-6] kVA,Hauts-de-France,4967291850867.0
+112,RES2 (+ RES5),P3: ]6-9] kVA,Centre-Val de Loire,3121952627129.0
+113,RES2 (+ RES5),P3: ]6-9] kVA,Hauts-de-France,4827244787074.0
+114,RES2 (+ RES5),P4: ]9-12] kVA,Centre-Val de Loire,1938020010978.0
+115,RES2 (+ RES5),P4: ]9-12] kVA,Hauts-de-France,2458329231743.0
+116,RES2 (+ RES5),P5: ]12-15] kVA,Centre-Val de Loire,418412828330.0
+117,RES2 (+ RES5),P5: ]12-15] kVA,Hauts-de-France,432178944138.0
+118,RES2 (+ RES5),P6: ]15-18] kVA,Centre-Val de Loire,472408704145.0
+119,RES2 (+ RES5),P6: ]15-18] kVA,Hauts-de-France,580123131271.0
+120,RES2 (+ RES5),P7: ]18-24] kVA,Centre-Val de Loire,99547362941.0
+121,RES2 (+ RES5),P7: ]18-24] kVA,Hauts-de-France,111028928848.0
+122,RES2 (+ RES5),P8: ]24-30] kVA,Centre-Val de Loire,34330655908.0
+123,RES2 (+ RES5),P8: ]24-30] kVA,Hauts-de-France,40631222820.0
+124,RES2 (+ RES5),P9: ]30-36] kVA,Centre-Val de Loire,77137317475.0
+125,RES2 (+ RES5),P9: ]30-36] kVA,Hauts-de-France,99862526794.0
+126,RES2WE,P0: Total <= 36 kVA,Centre-Val de Loire,143390081543.0
+127,RES2WE,P0: Total <= 36 kVA,Hauts-de-France,312138050806.0
+128,RES2WE,P1: ]0-6] kVA,Centre-Val de Loire,38592887254.0
+129,RES2WE,P1: ]0-6] kVA,Hauts-de-France,123369232152.0
+130,RES2WE,P3: ]6-9] kVA,Centre-Val de Loire,61262390567.0
+131,RES2WE,P3: ]6-9] kVA,Hauts-de-France,123879120065.0
+132,RES2WE,P4: ]9-12] kVA,Centre-Val de Loire,29194560852.0
+133,RES2WE,P4: ]9-12] kVA,Hauts-de-France,48404660272.0
+134,RES2WE,P5: ]12-15] kVA,Centre-Val de Loire,5864874276.0
+135,RES2WE,P5: ]12-15] kVA,Hauts-de-France,7166333714.0
+136,RES2WE,P6: ]15-36] kVA,Centre-Val de Loire,8475298296.0
+137,RES2WE,P6: ]15-36] kVA,Hauts-de-France,9318483863.0
+138,RES3,P0: Total <= 36 kVA,Centre-Val de Loire,221016327170.0
+139,RES3,P0: Total <= 36 kVA,Hauts-de-France,347351113193.0
+140,RES3,P1: ]0-9] kVA,Centre-Val de Loire,105524731142.0
+141,RES3,P1: ]0-9] kVA,Hauts-de-France,192293629556.0
+142,RES3,P4: ]9-12] kVA,Centre-Val de Loire,44584148776.0
+143,RES3,P4: ]9-12] kVA,Hauts-de-France,77934597216.0
+144,RES3,P5: ]12-15] kVA,Centre-Val de Loire,10922586209.0
+145,RES3,P5: ]12-15] kVA,Hauts-de-France,12302027212.0
+146,RES3,P6: ]15-18] kVA,Centre-Val de Loire,44185907734.0
+147,RES3,P6: ]15-18] kVA,Hauts-de-France,48938301214.0
+148,RES3,P7: ]18-30] kVA,Centre-Val de Loire,7831118034.0
+149,RES3,P7: ]18-30] kVA,Hauts-de-France,6302966546.0
+150,RES3,P9: ]30-36] kVA,Centre-Val de Loire,4473352280.0
+151,RES3,P9: ]30-36] kVA,Hauts-de-France,3324359094.0
+152,RES4,P0: Total <= 36 kVA,Centre-Val de Loire,222504955082.0
+153,RES4,P0: Total <= 36 kVA,Hauts-de-France,305392386192.0
+154,RES4,P1: ]0-9] kVA,Centre-Val de Loire,1698662645.0
+155,RES4,P1: ]0-9] kVA,Hauts-de-France,4279210198.0
+156,RES4,P4: ]9-12] kVA,Centre-Val de Loire,84962491296.0
+157,RES4,P4: ]9-12] kVA,Hauts-de-France,135197912938.0
+158,RES4,P5: ]12-15] kVA,Centre-Val de Loire,18144453662.0
+159,RES4,P5: ]12-15] kVA,Hauts-de-France,19036843141.0
+160,RES4,P6: ]15-18] kVA,Centre-Val de Loire,109009625394.0
+161,RES4,P6: ]15-18] kVA,Hauts-de-France,139385548407.0
+162,RES4,P7: ]18-36] kVA,Centre-Val de Loire,8689652056.0
+163,RES4,P7: ]18-36] kVA,Hauts-de-France,7492801400.0
