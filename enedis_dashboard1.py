@@ -255,7 +255,7 @@ def indicators_matrix():
         )
 
         fig.update_layout(
-                barcornerradius=15,
+                #barcornerradius=15,
                 yaxis_title="Consommation électrique totale (mWh)",
                 xaxis_title="Région",
                 margin=dict(l=20, r=20, t=20, b=20)
