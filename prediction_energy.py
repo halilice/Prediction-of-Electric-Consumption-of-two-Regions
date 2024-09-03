@@ -107,7 +107,8 @@ def prediction_energy():
         
         lower = int(ypred) - 5000
         upper = int(ypred) + 5000
-        
+
+        st.write(new_df)
         st.markdown('#')
         
         st.subheader("Comparaison des Prédictions avec les Données Réelles")
