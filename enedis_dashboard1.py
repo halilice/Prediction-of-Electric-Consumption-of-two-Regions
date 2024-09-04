@@ -345,7 +345,7 @@ def indicators_matrix():
     col7, col8, col9 = st.columns([1,2,1], gap="small")
     with col8:
         st.subheader("Consommation d'Electricité par Jour de Vacances")
-        cols = ['Jour Fériés', 'Week-end', 'Vacances Scolaire']
+        cols = ['Jour Fériés', 'Week-end', 'Vacances Scolaires']
         calendrier = st.selectbox('Sélectionner le calendrier', cols)
         if calendrier == 'Jour Fériés':
             dico_feries = {0: 'Journée Normale', 1: 'Jour Fériés'}
@@ -401,7 +401,7 @@ def indicators_matrix():
             
             
         else:
-            dico_school = {0: 'Journée Normale', 1: 'Vacances Scolaire'}
+            dico_school = {0: 'Journée Normale', 1: 'Vacances Scolaires'}
             new_df_matrix['Vacances_Scol'] = new_df_matrix['Vacances_Scol'].replace(dico_school)
             school = new_df_matrix.groupby(['Vacances_Scol', 'Région']).\
                         agg(**{'Average_enrgy_cons': ('Energy_Cons_KWh', lambda x: x.mean())}).\
