@@ -14,11 +14,11 @@ def prediction_energy():
                     unsafe_allow_html=True)
 
         st.text("""
-            Bienvenue sur l'application de prévision de la consommation électrique des 
-            régions Centre-val-de-Loire et Hauts-de-France. L'application va prédire la 
-            consommation électrique journalière avec les informations que vous allez entrer. 
-            Nous vous demanderons quelques informations sur la météo du jour. Vous pouvez 
-            trouver toutes les informations nécessaires concernant la météo sur le site 
+            Bienvenue sur l'application de prévision de la consommation électrique des\
+            régions Centre-val-de-Loire et Hauts-de-France. L'application va prédire la\
+            consommation électrique journalière avec les informations que vous allez entrer.\
+            Nous vous demanderons quelques informations sur la météo du jour. Vous pouvez\
+            trouver toutes les informations nécessaires concernant la météo sur le site\
             << https://www.yr.no/en >>. 
             """)
 
