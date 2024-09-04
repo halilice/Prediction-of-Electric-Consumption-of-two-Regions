@@ -222,6 +222,7 @@ def indicators_matrix():
                 new_df_matrix,
                 x="PRECIP_TOTAL_DAY_MM",
                 y="Energy_Cons_KWh",
+                color='Région',
                 height=500,
                 color_discrete_sequence=px.colors.qualitative.D3
         )
