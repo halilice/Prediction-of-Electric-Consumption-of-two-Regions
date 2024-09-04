@@ -95,7 +95,7 @@ def prediction_energy():
 
         ypred = rf.predict([input_values])
 
-        st.write(f"La consommation électrique de la journée avec les informations que vous avez saisies est de {ypred.round(2)} mWh") 
+        st.write(f"La consommation électrique de la journée avec les informations que vous avez saisies est de {float(ypred.round(2))} mWh") 
         
         if region == 'Centre-val-de-Loire':
             region = 1
