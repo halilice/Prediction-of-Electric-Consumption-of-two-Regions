@@ -124,7 +124,7 @@ def prediction_energy():
                 yaxis_title="Consommation électrique totale (mWh)",
                 xaxis_title="Région: Centre-val-de-Loire",
                 margin=dict(l=20, r=20, t=100, b=30),
-                hovermode="y",
+                hovermode="x",
                 #yaxis_range=[int(lower), int(upper)]
             )
             fig.add_trace(go.Scatter(x=[1], y=[int(ypred)], mode = 'markers',
@@ -144,7 +144,7 @@ def prediction_energy():
                 yaxis_title="Consommation électrique totale (mWh)",
                 xaxis_title="Région: Hauts-de-France",
                 margin=dict(l=20, r=20, t=100, b=30),
-                hovermode="y",
+                hovermode="x",
                 #yaxis_range=[int(lower), int(upper)]
             )
             fig.add_trace(go.Scatter(x=[2], y=[int(ypred)], mode = 'markers',
