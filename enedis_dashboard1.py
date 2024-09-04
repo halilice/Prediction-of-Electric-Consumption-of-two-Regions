@@ -135,7 +135,7 @@ def basic_indicators():
                 barmode="group",
                 height=500,
                 color_discrete_map={
-                "Centre-Val-de-Loire": "#FF7F0E",
+                "Centre-Val de Loire": "#FF7F0E",
                 "Hauts-de-France": "#1F77B4"}
         )
 
