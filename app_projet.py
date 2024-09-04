@@ -9,10 +9,17 @@ st.set_page_config(page_title="Enedis Dashboard", page_icon=":bar_chart:", layou
 
 st.sidebar.header('Choose the Page: ')
 
-sidebar = st.sidebar.selectbox('Select the Page', ['Basic Indicators', 'Indicators of ML Model Matrix', 
+sidebar = st.sidebar.selectbox('Select the Page', ['Présentation', 'Basic Indicators', 'Indicators of ML Model Matrix', 
                                                    'Prediction Daily Energy Consumption'])
 
-if sidebar == 'Basic Indicators':
+if sidebar == 'Présentation':
+  list_pages = ['Accueil', 'Equipe', 'Objectif', 'Infos des Régions', 'Outils', 'Fin'] 
+  pages = st.sidebar.radio('Sélectionnez la région', list_pages)
+  if pages == 'Accueil':
+    st.image('presentation/Accueil')
+
+
+elif sidebar == 'Basic Indicators':
     basic_indicators()
     
 elif sidebar == 'Indicators of ML Model Matrix':
