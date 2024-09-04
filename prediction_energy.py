@@ -128,7 +128,7 @@ def prediction_energy():
             )
             fig.add_trace(go.Scatter(x=[1], y=[int(ypred)], mode = 'markers',
                              marker_symbol = 'star', marker_color = 'red',
-                             marker_size = 30))
+                             marker_size = 30, name="Prédiction"))
             fig.update_xaxes(showticklabels=False)
             st.plotly_chart(fig)
 
@@ -147,7 +147,7 @@ def prediction_energy():
             )
             fig.add_trace(go.Scatter(x=[2], y=[int(ypred)], mode = 'markers',
                              marker_symbol = 'star', marker_color = 'red',
-                             marker_size = 30))
+                             marker_size = 30, name="Prédiction"))
             fig.update_xaxes(showticklabels=False)
 
             st.plotly_chart(fig)
