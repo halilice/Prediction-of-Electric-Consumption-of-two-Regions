@@ -224,7 +224,7 @@ def indicators_matrix():
                 y="Energy_Cons_KWh",
                 color='Région',
                 height=500,
-                color_discrete_sequence=px.colors.qualitative.D3
+                color_discrete_sequence=['#FF7F0E', '#1F77B4']
         )
 
         fig.update_layout(
