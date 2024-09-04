@@ -345,9 +345,9 @@ def indicators_matrix():
     col7, col8, col9 = st.columns([1,2,1], gap="small")
     with col8:
         st.subheader("Consommation d'Electricité par Jour de Vacances")
-        cols = ['Jour_Feries', 'Weekend', 'Vacances_Scol']
+        cols = ['Jour Fériés', 'Week-end', 'Vacances Scolaire']
         calendrier = st.selectbox('Sélectionner le calendrier', cols)
-        if calendrier == 'Jour_Feries':
+        if calendrier == 'Jour Fériés':
             dico_feries = {0: 'Journée Normale', 1: 'Jour Fériés'}
             new_df_matrix['Jour_Feries'] = new_df_matrix['Jour_Feries'].replace(dico_feries)
             feries = new_df_matrix.groupby(['Jour_Feries', 'Région']).\
@@ -373,7 +373,7 @@ def indicators_matrix():
 
             st.plotly_chart(fig, use_container_width=True)
             
-        elif calendrier == 'Weekend':
+        elif calendrier == 'Week-end':
             dico_weekend = {0: 'Pas Week-end', 1: 'Week-end'}
             new_df_matrix['Weekend'] = new_df_matrix['Weekend'].replace(dico_weekend)
             weekend = new_df_matrix.groupby(['Weekend', 'Région']).\
