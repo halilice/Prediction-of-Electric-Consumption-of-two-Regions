@@ -134,7 +134,9 @@ def basic_indicators():
                 color="Région",
                 barmode="group",
                 height=500,
-                color_discrete_sequence=px.colors.qualitative.D3
+                color_discrete_map={
+                "Centre-Val-de-Loire": "#FF7F0E",
+                "Hauts-de-France": "#1F77B4"}
         )
 
         fig.update_layout(
