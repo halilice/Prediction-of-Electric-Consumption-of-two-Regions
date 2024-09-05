@@ -57,7 +57,7 @@ def basic_indicators():
         st.plotly_chart(fig, use_container_width=True)
 
     with col2:
-        st.subheader('Consommation Electrique par Région par 1/2 Heure')
+        st.subheader('Moyenne Cumulée de la Consommation Electrique sur 24h')
         # Average energy consumption by 1/2 hour
         fig = px.line(
             df_cons_hour,
