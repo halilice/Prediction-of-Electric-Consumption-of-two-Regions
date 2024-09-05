@@ -143,10 +143,10 @@ def prediction_energy():
                 hovermode="x",
                 #yaxis_range=[int(lower), int(upper)]
             )
+            fig.update_traces(boxmean=True)
             fig.add_trace(go.Scatter(x=[1], y=[int(ypred)], mode = 'markers',
                              marker_symbol = 'star', marker_color = 'red',
                              marker_size = 20, name="Prédiction", hovertemplate=None))
-            fig.update_traces(boxmean=True)
             fig.update_xaxes(showticklabels=False)
             st.plotly_chart(fig)
 
@@ -164,10 +164,10 @@ def prediction_energy():
                 hovermode="x",
                 #yaxis_range=[int(lower), int(upper)]
             )
+            fig.update_traces(boxmean=True)
             fig.add_trace(go.Scatter(x=[2], y=[int(ypred)], mode = 'markers',
                              marker_symbol = 'star', marker_color = 'red',
                              marker_size = 20, name="Prédiction", hovertemplate=None))
-            fig.update_traces(boxmean=True)
             fig.update_xaxes(showticklabels=False)
 
             st.plotly_chart(fig)
