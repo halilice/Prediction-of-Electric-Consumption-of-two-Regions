@@ -101,8 +101,8 @@ def prediction_energy():
             region = 1
         else:
             region = 2
-        filter1 = df['MAX_TEMPERATURE_C'] <= temperature + 3
-        filter2 = df['MAX_TEMPERATURE_C'] >= temperature - 3
+        filter1 = df['MAX_TEMPERATURE_C'] <= temperature + 1
+        filter2 = df['MAX_TEMPERATURE_C'] >= temperature - 1
         filter3 = df['Région'] == region
         new_df = df[filter1 & filter2 & filter3]
         
