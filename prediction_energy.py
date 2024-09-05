@@ -101,10 +101,26 @@ def prediction_energy():
             region = 1
         else:
             region = 2
+        if snow == 'Oui':
+            snow = 1
+        else:
+            snow = 0
+        if nat_hol == 'Oui':
+            nat_hol = 1
+        else:
+            nat_hol = 0
+        if school_hol == 'Oui':
+            school_hol = 1
+        else:
+            school_hol = 0
+            
         filter1 = df['MAX_TEMPERATURE_C'] < temperature + 1
         filter2 = df['MAX_TEMPERATURE_C'] > temperature - 1
         filter3 = df['Région'] == region
-        new_df = df[filter1 & filter2 & filter3]
+        filter4 = df['TOTAL_SNOW_MM'] == snow
+        filter5 = df['Jour_Feries'] == nat_hol
+        filter6 = df['Vacances_Scol'] == school_hol
+        new_df = df[filter1 & filter2 & filter3 & filter4 & filter5 & filter6]
         
         lower = int(ypred) - 5000
         upper = int(ypred) + 5000
