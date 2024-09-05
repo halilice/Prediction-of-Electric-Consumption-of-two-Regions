@@ -7,9 +7,9 @@ from prediction_energy import prediction_energy
 
 st.set_page_config(page_title="Enedis Dashboard", page_icon=":bar_chart:", layout='wide')
 
-st.sidebar.header('Choose the Page: ')
+st.sidebar.header('Sélectionnez la Page: ')
 
-sidebar = st.sidebar.selectbox('Select the Page', ['Présentation', 'Basic Indicators', 'Indicators of ML Model Matrix', 
+sidebar = st.sidebar.selectbox(['Présentation', 'Basic Indicators', 'Indicators of ML Model Matrix', 
                                                    'Prediction Daily Energy Consumption'])
 
 if sidebar == 'Présentation':
