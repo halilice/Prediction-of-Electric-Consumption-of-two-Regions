@@ -137,7 +137,7 @@ def prediction_energy():
             )
 
             fig.update_layout(
-                yaxis_title="Consommation électrique totale (mWh)",
+                yaxis_title="Consommation électrique totale (MWh)",
                 xaxis_title="Région: Centre-val-de-Loire",
                 margin=dict(l=20, r=20, t=100, b=30),
                 hovermode="x",
@@ -158,7 +158,7 @@ def prediction_energy():
             )
 
             fig.update_layout(
-                yaxis_title="Consommation électrique totale (mWh)",
+                yaxis_title="Consommation électrique totale (MWh)",
                 xaxis_title="Région: Hauts-de-France",
                 margin=dict(l=20, r=20, t=100, b=30),
                 hovermode="x",
