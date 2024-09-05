@@ -95,7 +95,7 @@ def prediction_energy():
 
         ypred = rf.predict([input_values])
 
-        st.write(f"La consommation électrique de la journée avec les informations que vous avez saisies est de {float(ypred.round(2))} mWh") 
+        st.write("La consommation électrique de la journée avec les informations que vous avez saisies est de", int(ypred), "mWh") 
         
         if region == 'Centre-val-de-Loire':
             region = 1
@@ -125,7 +125,7 @@ def prediction_energy():
         lower = int(ypred) - 5000
         upper = int(ypred) + 5000
 
-        st.write(new_df)
+        #st.write(new_df)
         st.markdown('#')
         
         st.subheader("Comparaison des Prédictions avec les Données Réelles")
