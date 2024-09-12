@@ -13,7 +13,12 @@ In order to realize the project, we used the electricity consumption per 1/2 h w
 
 Firstly, we implemented linear regression model with all of the variables (calendar and weather variables) we have in our ML matrix. But we had to choose the independent variables which affects the most our dependent variables which is electricity consumption. We used SelectKBest feature selection method from ScikitLearn library with the mutual information criteria. We chose the most relevant variables and we put to work our regression model with selected variables. We tried several models such as Linear Regression, Decision Tree Regressor etc. and finally we chose the Random Forest Regressor model because we had the best R2, MAE and MSRE scores with that model. 
 
+***1. Base Model Codes and results***
+
 ![Base_model](diverses/base_model_codes.png)
+
+
+***1. Final Model Codes and results***
 
 ![Final_model](diverses/final_model_codes.png)
 
@@ -26,12 +31,16 @@ Finally, we made an application sur Streamlit which consists of the presentation
 
 ![Presentation](diverses/page_presentation.png)
 
+
 ***1. Basic Indicators Page***
+
 ![Basic_Indicators](diverses/page_basic_indicators.png)
+
 
 ***1. ML Indicators Page***
 
 ![ML_Indicators](diverses/page_ML_indicators.png)
+
 
 ***1. Prediction Page***
 
